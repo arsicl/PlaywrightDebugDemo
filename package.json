@@ -1,0 +1,22 @@
+{
+  "name": "playwrightdebuggingdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/contactUsFormWithFixtures.spec.ts --headed",
+    "showHtlReport": "npx playwright show-report",
+    "generateAllureReport": "npx allure generate ./allure-results --clean",
+    "showAllureReport": "npx allure open ./allure-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.31.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.31.2",
+    "allure-commandline": "^2.21.0",
+    "allure-playwright": "^2.1.0"
+  }
+}
