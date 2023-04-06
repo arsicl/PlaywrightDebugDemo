@@ -52,7 +52,7 @@ Demo is refactored from initial start up project: <a href="https://github.com/ar
  <li> Show trace
 
 
- <code> npx playwright show trace </code>
+ <code> npx playwright show-trace </code>
  </li>
 
 <li> Genearte and show Allure report (JAVA_HOME variable should be set to JDK installation path)
