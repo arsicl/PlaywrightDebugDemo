@@ -65,3 +65,11 @@ Demo is refactored from initial start up project: <a href="https://github.com/ar
 
  </ol>
  
+ <h1>Steps which will be shown on Demo </h1>
+<ul>
+<li>Filling form through debugger </li>
+<li>Handle prompt window</li>
+<li> Change locators using devtools in debugger mode</li>
+<li> HTML report, trace <l/i>
+</ul>
+ 
