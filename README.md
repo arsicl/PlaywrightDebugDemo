@@ -49,7 +49,7 @@ Demo is refactored from initial start up project: <a href="https://github.com/ar
  <code>npx playwright show-report</code>
  </li>
 
- <li> Show trace
+ <li> Show trace: url or relative path to trace.zip file can be provided
 
 
  <code> npx playwright show-trace </code>
@@ -70,6 +70,6 @@ Demo is refactored from initial start up project: <a href="https://github.com/ar
 <li>Filling form through debugger </li>
 <li>Handle prompt window</li>
 <li> Change locators using devtools in debugger mode</li>
-<li> HTML report, trace <l/i>
+<li> HTML and Allure reports, trace <l/i>
 </ul>
  

@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test tests/contactUsFormWithFixtures.spec.ts --headed",
-    "showHtlReport": "npx playwright show-report",
+    "testFromRecordedScript": "npx playwright test tests/contactFormTestFromRecordedScript.spec.ts --headed",
+    "showHtmlReport": "npx playwright show-report",
     "generateAllureReport": "npx allure generate ./allure-results --clean",
-    "showAllureReport": "npx allure open ./allure-report"
+    "showAllureReport": "npx allure open ./allure-report",
+    "showTrace": "npx playwright show-trace test-results/tests-contactUsFormWithFixtures-Submit-form-and-verify-success-message/trace.zip"
   },
   "author": "",
   "license": "ISC",
