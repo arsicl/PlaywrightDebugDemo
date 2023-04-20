@@ -32,8 +32,9 @@ export class ContactUsPage{
     }
 
     async populateNameAndEmail(name: string, email: string){
-        await this.nameField.fill(name);
+        // Start debugger
         //await this.page.pause();
+        await this.nameField.fill(name);
         await this.emailField.fill(email);
     }
 
